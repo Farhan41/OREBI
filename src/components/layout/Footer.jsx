@@ -125,7 +125,7 @@ const Footer = () => {
                    <BsLinkedin/> 
                 </div>
                 <div className='w-full lg:w-[30%] '>
-                    <p>2023 Orebi Minimal eCommerce by Farhan Ferdous</p>
+                    <p className="font-regular mt-[6px] lg:mt-[0px] font-dm text-[10px] text-[#6D6D6D]">2023 Orebi Minimal eCommerce by Farhan Ferdous</p>
                 </div>
             </Flex>
         </div>
