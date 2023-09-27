@@ -49,10 +49,10 @@ const Navbar = () => {
          <FaBars onClick={handleShow} className=" block lg:hidden ml-auto absolute top-10 right-3"/>
         {show && (
            <List className="lg:flex lg:justify-end lg:gap-x-10 font-dm text-sm mt-3 lg:mt-0 ">
-           <ListItem className="font-bold my-3 lg:my-0" itemname="Home"/>
-           <ListItem className="font-regular hover:font-bold my-3 lg:my-0" itemname="About"/>
+           <ListItem className="font-bold my-3 lg:my-0" href="/" itemname="Home"/>
+           <ListItem className="font-regular hover:font-bold my-3 lg:my-0" href="/about" itemname="About"/>
            <ListItem className="font-regular hover:font-bold my-3 lg:my-0" itemname="Service"/>
-           <ListItem className="font-regular hover:font-bold my-3 lg:my-0" itemname="Contact"/>
+           <ListItem className="font-regular hover:font-bold my-3 lg:my-0" href="/contact" itemname="Contact"/>
          </List>
         )}
          </div>

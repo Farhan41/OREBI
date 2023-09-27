@@ -11,7 +11,7 @@ const Product = ({src, badge}) => {
   return (
    <div>
     <div className='relative group overflow-hidden'>
-    <Image imgsrc={src}/>
+    <Image className="w-full" imgsrc={src}/>
     {badge && 
     <Badge title="New"/>
     }
