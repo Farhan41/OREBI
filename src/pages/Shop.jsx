@@ -4,7 +4,7 @@ import Container from '../components/layout/Container'
 import Flex from '../components/layout/Flex'
 import Pagination from '../components/layout/Pagination'
 import { useState } from 'react'
-import LeftSIdeBar from '../components/layout/LeftSIdeBar'
+import LeftSIdeBar from '../components/layout/LeftSideBar'
 
 const Shop = () => {
 

@@ -2,7 +2,7 @@ import React from 'react'
 import SidebarContent from './SidebarContent'
 import { category, colors, brands, prices} from '../../data/data'
 
-const LeftSIdeBar = () => {
+const LeftSideBar = () => {
   return (
     <>
     <SidebarContent dropDown={true} droptitle="Show by Category" data={category}/>
@@ -13,4 +13,4 @@ const LeftSIdeBar = () => {
   )
 }
 
-export default LeftSIdeBar
+export default LeftSideBar
