@@ -50,8 +50,8 @@ const Navbar = () => {
         {show && (
            <List className="lg:flex lg:justify-end lg:gap-x-10 font-dm text-sm mt-3 lg:mt-0 ">
            <ListItem className="font-bold my-3 lg:my-0" href="/" itemname="Home"/>
+           <ListItem className="font-regular hover:font-bold my-3 lg:my-0" href="/shop"  itemname="Shop"/>
            <ListItem className="font-regular hover:font-bold my-3 lg:my-0" href="/about" itemname="About"/>
-           <ListItem className="font-regular hover:font-bold my-3 lg:my-0" itemname="Service"/>
            <ListItem className="font-regular hover:font-bold my-3 lg:my-0" href="/contact" itemname="Contact"/>
          </List>
         )}
